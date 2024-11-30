@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.mainbox {
+  width: 1000px;
+  height: 800px; /* will be removed later */
+  background-color: white;
+  border: 3px solid gray;
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  font-size: 12pt;
+}
+
+.receipttable {
+  width: 350px;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.receipttable .lefttext {
+  text-align: left;
+}
+
+.receipttable .righttext {
+  text-align: right;
+}
+
+.receipttable .centertext {
+  text-align: center;
+}
